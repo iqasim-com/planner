@@ -20,7 +20,7 @@ const Home: FC<Props> = () => {
         {/* begin::Landing hero */}
         <div className="d-flex align-items-center justify-content-between h-100">
           <div className="text-muted w-50 px-lg-20">
-            <h1 className='display-2 text-primary'>Event Work Flow</h1>
+            <h1 className='display-2 text-primary'>Event Planner</h1>
             <p className='mb-8 w-75'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, neque! Aliquid totam a sint commodi voluptatem voluptatum odit placeat, hic magnam perferendis accusantium beatae eius, ex esse ipsam et nam.</p>
             <button className='btn btn-outline btn-outline-primary btn-hover-scale'><i className='fa fa-rocket'></i> Explore More</button>
           </div>

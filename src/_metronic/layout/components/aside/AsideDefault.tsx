@@ -37,12 +37,12 @@ const AsideDefault: FC = () => {
         {/* begin::Logo */}
         {aside.theme === 'dark' && (
           <Link to='/dashboard'>
-            <h3 className='logo mb-0'><span className='text-primary'>Event</span> <span className='text-info'>Workflow</span></h3>
+            <h3 className='logo mb-0'><span className='text-primary'>Event</span> <span className='text-info'>Planner</span></h3>
           </Link>
         )}
         {aside.theme === 'light' && (
           <Link to='/dashboard'>
-            <h3 className='logo mb-0'>Event Workflow</h3>
+            <h3 className='logo mb-0'>Event Planner</h3>
           </Link>
         )}
         {/* end::Logo */}

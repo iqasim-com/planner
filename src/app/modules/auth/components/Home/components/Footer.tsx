@@ -5,7 +5,7 @@ const PublicFooter = () => {
     return (
         <footer>
             <div className="p-8 text-center text-primary bg-dark">
-                <span>Copyright © {date.getFullYear()} Event Work Flow | All Rights Reserved</span>
+                <span>Copyright © {date.getFullYear()} Event Planner | All Rights Reserved</span>
             </div>
         </footer>
     )
