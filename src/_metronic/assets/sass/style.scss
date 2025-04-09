@@ -1,0 +1,35 @@
+//
+// Theme style
+//
+
+// Initialize
+@import 'init';
+
+// Components
+@import './core/components/components';
+@import 'components/components';
+@import 'react-datepicker/dist/react-datepicker.css';
+
+// Layout
+@import './core/layout/base';
+@import 'layout/layout';
+
+.react-datepicker__day--disabled {
+  color: #fff !important; /* Change the color to red */
+  background-color: #fa5050; /* Optional: Add a custom background */
+  opacity: 0.5; /* Optional: Make it slightly transparent */
+  cursor: not-allowed; /* Change the cursor to indicate it's disabled */
+}
+
+.caret-sign::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  right: 0;
+  bottom: 3px;
+  border: 6px solid #019ef7;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+}
