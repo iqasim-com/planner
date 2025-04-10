@@ -18,7 +18,7 @@ const Step1 = () => {
       {/*begin::Form Group */}
       <div className='pb-10 pb-lg-15'>
         <h2 className='fw-bolder d-flex align-items-center text-dark'>
-          Account Type
+          Type
           <i
             className='fas fa-exclamation-circle ms-2 fs-7'
             data-bs-toggle='tooltip'
